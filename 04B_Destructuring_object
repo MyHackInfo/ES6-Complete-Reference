@@ -1,0 +1,59 @@
+<html>
+<body>
+  <script type="text/javascript">
+    //1 example ****************
+        /*let gets={
+            first:true,
+            second:false
+          };
+            //extract data form the object in ES5
+            let a1=gets.first,
+                a2=gets.second;
+            console.log(a1);
+            console.log(a2);
+            //extract data form the object in ES6
+            let {first,second}=gets;
+              console.log(first);
+              console.log(second);
+          */
+
+    // 2 Example **************
+          /*  let newNode={
+              type:"indetifier",
+              name:"john",
+              loc:{
+                start:{
+                  line:1,
+                  column:2
+                },
+                end:{
+                  line:3,
+                  column:3
+                }
+              }
+            }
+
+            let {loc:{start}}=newNode;
+            let {loc:{end}}=newNode;
+            console.log(start.line);
+            console.log(end.column); */
+
+      // 3 Example *****************
+
+          /*  let node={
+              type:"narsi",
+              name:"narsi"
+            },
+            type="jeetu",
+            name="jeetu";
+
+            ({type,name} = node); // name:localname this think help for acces loacal variable
+              console.log(type);
+              //console.log(localname);
+              console.log(name); */
+
+
+
+  </script>
+</body>
+</html>
