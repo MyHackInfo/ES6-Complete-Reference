@@ -1,0 +1,73 @@
+<html>
+<body>
+  <script type="text/javascript">
+  // 1 default parameter in ES6 *************************
+        /*function add(a=5,b=6){
+          return a+b;
+        }
+        alert(add());*/
+  // 2 default-Expressions-Patameters ************************
+        /*function getvalue(){
+            return 5;
+          }
+          function add(first,second=getvalue()){
+            return first + second;
+          }
+          alert(add(1));*/
+  // 3 Rest parameters(...value) *************************
+            /*function add(a,...b){
+              return  b;
+            }
+            alert(add(2,4,4));*/
+  // 4 Spread parameter (...value) on array for concatarray,copyarray *********
+            /*let vala=[2,5,78,55,78,88,90,5];
+            alert(Math.max(...vala,456,2340005));*/
+
+  // 5 Name property **************************
+            /*function add(){}
+            var ty=function(){}
+            var ask=function me(){}
+            alert(add.name);//Name is add function
+            alert(ask.name);//Name is me function
+            alert(ty.name);// Name is ty function*/
+
+  // 6 Block Level function *************************
+              /*"use strict"
+              if(true){
+              console.log(typeof dosomthink); // its function
+              function dosomthink(){}
+              dosomthink();
+                      }
+              console.log(typeof dosomthink);// its give undefined */
+
+  // 7 Arrow function *****************************
+            /*  var reflect =(value) => value;//Arrow function
+              var reflect= function(value){
+                return value;
+              };
+
+              var sum=(num1,num2) => num1+num2;//Arrow function
+              var sum= function(num1,num2){
+                return num1+num2;
+              };
+
+              var getName=() => 'narsi';
+              var getName=function(){
+                return "narsi";
+              };
+
+              var doNothing=()=>{};
+              var doNothing=function(){};
+
+              var getTemp=(id) => ({id:id,name:'narsi'});
+              var getTemp=function(id){
+                id:id,
+                name:"narsi"
+              };*/
+
+    // 8
+
+
+  </script>
+</body>
+</html>
