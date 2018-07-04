@@ -1,0 +1,26 @@
+<html>
+<head> </head>
+<body>
+  <script type="text/javascript">
+
+  class PersonClass{  // let PersonClass = class PersonClass2{
+    constructor(name){
+      this.name=name;
+    }
+    sayName(){
+      console.log(this.name);
+    }
+  }
+  let person2=new PersonClass("narsi");
+   person2.sayName();
+
+   console.log(person2 instanceof PersonClass);
+   console.log(typeof person2);
+   console.log(typeof PersonClass); // typeof PersonClass2 is indefine 
+
+
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head> </head>
+<body>
+  <script type="text/javascript">
+
+  // 1 Iterator
+    let values=[1,2,90,78,6]; //iterator work on array
+    let get={f:"get",s:"set"}; // not work on object
+    let iterator=values[Symbol.iterator]();
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+    console.log(iterator.next());
+
+    // for of loop
+    for(let num of values){
+      console.log(num);
+    }
+
+
+  </script>
+
+</body>
+</html>
